@@ -110,7 +110,7 @@ task.spawn(function()
     else
         local Welcome = {"http://www.roblox.com/asset/?id=5993650338","http://www.roblox.com/asset/?id=6879335951","http://www.roblox.com/asset/?id=9084006093","http://www.roblox.com/asset/?id=2976402600","http://www.roblox.com/asset/?id=9094639541","http://www.roblox.com/asset/?id=9064673560","http://www.roblox.com/asset/?id=7677257846"};
         local Sound = Instance.new("Sound");Sound.Name = "Sound";Sound.SoundId = Welcome[math.random(1,#Welcome)];
-        Sound.Volume = 10;Sound.Looped = false;Sound.Archivable = false;Sound.Parent = game.Workspace;Sound:Play();
+        Sound.Volume = 5;Sound.Looped = false;Sound.Archivable = false;Sound.Parent = game.Workspace;Sound:Play();
         getgenv().Notify("http://www.roblox.com/asset/?id=11803247078","Flame's Notification"," Welcome To Flame's Hub  💗","bottom","",4);
     end
 end)
